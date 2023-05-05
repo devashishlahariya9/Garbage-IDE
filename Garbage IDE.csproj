@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net6.0-windows</TargetFramework>
+		<RootNamespace>Garbage_IDE</RootNamespace>
+		<Nullable>enable</Nullable>
+		<UseWPF>true</UseWPF>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Resource Include="images\App_logo_black.ico"></Resource>
+		<Resource Include="images\App_logo_white.ico"></Resource>
+		<Resource Include="images\Garbage IDE Logo.png"></Resource>
+	</ItemGroup>
+</Project>

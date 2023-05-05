@@ -1,0 +1,21 @@
+C:\Users\Devashish Lahariya\source\repos\Garbage IDE\bin\Debug\net6.0-windows\Garbage IDE.exe
+C:\Users\Devashish Lahariya\source\repos\Garbage IDE\bin\Debug\net6.0-windows\Garbage IDE.deps.json
+C:\Users\Devashish Lahariya\source\repos\Garbage IDE\bin\Debug\net6.0-windows\Garbage IDE.runtimeconfig.json
+C:\Users\Devashish Lahariya\source\repos\Garbage IDE\bin\Debug\net6.0-windows\Garbage IDE.dll
+C:\Users\Devashish Lahariya\source\repos\Garbage IDE\bin\Debug\net6.0-windows\Garbage IDE.pdb
+C:\Users\Devashish Lahariya\source\repos\Garbage IDE\obj\Debug\net6.0-windows\Garbage IDE.csproj.AssemblyReference.cache
+C:\Users\Devashish Lahariya\source\repos\Garbage IDE\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Devashish Lahariya\source\repos\Garbage IDE\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Devashish Lahariya\source\repos\Garbage IDE\obj\Debug\net6.0-windows\Garbage IDE_MarkupCompile.cache
+C:\Users\Devashish Lahariya\source\repos\Garbage IDE\obj\Debug\net6.0-windows\Garbage IDE_MarkupCompile.lref
+C:\Users\Devashish Lahariya\source\repos\Garbage IDE\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Devashish Lahariya\source\repos\Garbage IDE\obj\Debug\net6.0-windows\Garbage IDE.g.resources
+C:\Users\Devashish Lahariya\source\repos\Garbage IDE\obj\Debug\net6.0-windows\Garbage IDE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Devashish Lahariya\source\repos\Garbage IDE\obj\Debug\net6.0-windows\Garbage IDE.AssemblyInfoInputs.cache
+C:\Users\Devashish Lahariya\source\repos\Garbage IDE\obj\Debug\net6.0-windows\Garbage IDE.AssemblyInfo.cs
+C:\Users\Devashish Lahariya\source\repos\Garbage IDE\obj\Debug\net6.0-windows\Garbage IDE.csproj.CoreCompileInputs.cache
+C:\Users\Devashish Lahariya\source\repos\Garbage IDE\obj\Debug\net6.0-windows\Garbage IDE.dll
+C:\Users\Devashish Lahariya\source\repos\Garbage IDE\obj\Debug\net6.0-windows\refint\Garbage IDE.dll
+C:\Users\Devashish Lahariya\source\repos\Garbage IDE\obj\Debug\net6.0-windows\Garbage IDE.pdb
+C:\Users\Devashish Lahariya\source\repos\Garbage IDE\obj\Debug\net6.0-windows\Garbage IDE.genruntimeconfig.cache
+C:\Users\Devashish Lahariya\source\repos\Garbage IDE\obj\Debug\net6.0-windows\ref\Garbage IDE.dll
