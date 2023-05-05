@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -33,6 +34,18 @@ namespace Garbage_IDE
 			if (mainPanelBorder != null)
 			{
 				mainPanelBorder.Margin = new Thickness();
+			}
+		}
+
+		public void open_file(object sender, RoutedEventArgs e)
+		{
+			OpenFileDialog openFileDialog = new OpenFileDialog();
+
+			if(openFileDialog.ShowDialog() == true)
+			{
+				string text = openFileDialog.FileName;
+
+				code_textbox.Document.Blocks.Add(new Paragraph(new Run(text)));
 			}
 		}
 		public MainWindow()
