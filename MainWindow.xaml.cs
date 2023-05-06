@@ -18,6 +18,10 @@ namespace Garbage_IDE
 {
 	public partial class MainWindow : Window
 	{
+		public void ui_init(object sender, RoutedEventArgs e)
+		{
+			
+		}
 		private void ToolBar_Loaded(object sender, RoutedEventArgs e)
 		{
 			ToolBar? toolBar = sender as ToolBar;
