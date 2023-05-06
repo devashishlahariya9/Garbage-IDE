@@ -18,7 +18,7 @@ namespace Garbage_IDE
 {
 	public partial class MainWindow : Window
 	{
-		public void ui_init(object sender, RoutedEventArgs e)		//Sourav's Comment
+		public void ui_init(object sender, RoutedEventArgs e)
 		{
 			
 		}
