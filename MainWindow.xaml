@@ -66,7 +66,18 @@
 				<ColumnDefinition Width="*"/>
 			</Grid.ColumnDefinitions>
 
-			<GridSplitter x:Name="grid_splitter" HorizontalAlignment="Center" VerticalAlignment="Stretch" Grid.Column="1" Width="3" Background="#3385FF"/>
+			<GridSplitter x:Name="grid_splitter" HorizontalAlignment="Center" VerticalAlignment="Stretch" Grid.Column="1" Width="3">
+				<GridSplitter.Style>
+					<Style TargetType="{x:Type GridSplitter}">
+						<Setter Property="Background" Value="Transparent"/>
+						<Style.Triggers>
+							<Trigger Property="IsMouseOver" Value="True">
+								<Setter Property="Background" Value="#3385FF"/>
+							</Trigger>
+						</Style.Triggers>
+					</Style>
+				</GridSplitter.Style>
+			</GridSplitter>
 
 			<Rectangle Grid.Column="0" Fill="#202020"/>
 
