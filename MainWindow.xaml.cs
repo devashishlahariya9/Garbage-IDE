@@ -47,9 +47,32 @@ namespace Garbage_IDE
 
 			if(openFileDialog.ShowDialog() == true)
 			{
-				string text = openFileDialog.FileName;
+				//Open the File & Set The Window Title
 
-				code_textbox.Document.Blocks.Add(new Paragraph(new Run(text)));
+				string file_path = openFileDialog.FileName;
+
+				string file_name;
+
+				int idx = file_path.Length - 1;
+				char curr_char = file_path[idx];
+
+				while(curr_char != '\\')
+				{
+					idx--;
+
+					curr_char = file_path[idx];
+				}
+				idx++;
+
+				file_name = file_path.Substring(idx);
+
+				string window_title = "Garbage IDE " + "(" + file_name + ")";
+
+				main_window.Title = window_title;
+
+				//Print The File Data
+
+				code_textbox.Text = System.IO.File.ReadAllText(file_path);
 			}
 		}
 		public MainWindow()

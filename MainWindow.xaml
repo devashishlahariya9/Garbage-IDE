@@ -7,7 +7,8 @@
 		mc:Ignorable="d"
 		Title="Garbage IDE" Height="450" Width="800" Background="#353535"
 		Icon="/images/App_logo_black.ico"
-		Loaded="ui_init">
+		Loaded="ui_init"
+		x:Name="main_window">
 
 	<Grid x:Name="main_grid">
 		<Grid.RowDefinitions>
@@ -58,7 +59,7 @@
 			</ToolBarPanel>
 		</Grid>
 
-		<Grid x:Name="lower_code_area_grid" Margin="0,23,0,0">
+		<Grid x:Name="lower_code_area_grid" Margin="0,21,0,0" Background="#303030">
 
 			<Grid.ColumnDefinitions>
 				<ColumnDefinition Width="Auto" MinWidth="0" MaxWidth="300"/>
@@ -66,7 +67,7 @@
 				<ColumnDefinition Width="*"/>
 			</Grid.ColumnDefinitions>
 
-			<GridSplitter x:Name="grid_splitter" HorizontalAlignment="Center" VerticalAlignment="Stretch" Grid.Column="1" Width="3">
+			<GridSplitter x:Name="grid_splitter" HorizontalAlignment="Center" Grid.Column="1" Width="3">
 				<GridSplitter.Style>
 					<Style TargetType="{x:Type GridSplitter}">
 						<Setter Property="Background" Value="Transparent"/>
@@ -81,7 +82,7 @@
 
 			<Rectangle Grid.Column="0" Fill="#202020"/>
 
-			<RichTextBox x:Name="code_textbox" Grid.Column="2" Foreground="#FFFFFF" Background="#303030" BorderThickness="0" AcceptsReturn="True" AcceptsTab="True" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" Height="Auto"/>
+			<TextBox x:Name="code_textbox" Grid.Column="2" Foreground="#FFFFFF" Background="#303030" BorderThickness="0" AcceptsReturn="True" AcceptsTab="True" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" Height="Auto" TextWrapping="Wrap"/>
 
 		</Grid>
 
