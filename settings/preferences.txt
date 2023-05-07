@@ -1,0 +1,8 @@
+# Set Application X-Size
+application.size.x = 800
+
+# Set Application Y-Size
+application.size.y = 450
+
+#Set Application Background Color
+application.color.background = #303030
