@@ -5,7 +5,7 @@
 		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
 		xmlns:local="clr-namespace:Garbage_IDE"
 		mc:Ignorable="d"
-		Title="Garbage IDE" Height="450" Width="800" Background="#353535"
+		Title="Garbage IDE" Width="800" Height="450" Background="#353535"
 		Icon="/images/App_logo_black.ico"
 		Loaded="ui_init"
 		x:Name="main_window">
@@ -49,7 +49,11 @@
 							</MenuItem.Resources>
 
 							<MenuItem Header="New" BorderThickness="0"/>
-							<MenuItem Click="open_file" Header="Open" BorderThickness="0"/>
+							<MenuItem Header="Open" BorderThickness="0" Click="open_file"/>
+							<Separator/>
+							<MenuItem Header="Save" BorderThickness="0" Click="save_file"/>
+							<Separator/>
+							<MenuItem Header="Exit" BorderThickness="0"/>
 						</MenuItem>
 
 						<MenuItem Header="Edit" BorderThickness="0"/>
@@ -82,7 +86,7 @@
 
 			<Rectangle Grid.Column="0" Fill="#202020"/>
 
-			<TextBox x:Name="code_textbox" Grid.Column="2" Foreground="#FFFFFF" Background="#303030" BorderThickness="0" AcceptsReturn="True" AcceptsTab="True" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" Height="Auto" TextWrapping="Wrap"/>
+			<RichTextBox x:Name="code_textbox" Grid.Column="2" Foreground="#FFFFFF" Background="#303030" BorderThickness="0" AcceptsReturn="True" AcceptsTab="True" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" Height="Auto"/>
 
 		</Grid>
 
